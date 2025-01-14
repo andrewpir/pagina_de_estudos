@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background: #ffffff;
+    flex-wrap: wrap;
+}
+/*
+propriedades flex
+flex-grow: habilidade do flex de crescer (maior aumenta mais, padrão 0, 1 faz todos terem o mesmo tamanho)
+flex-shrink: capacidade de redução do item (com 0 n permite reduzir, maior numero diminui mais)
+flex-basis: tamanho inicial do item (0 mantem os mesmo tamanho entre eles, pode % em etc)
+flex-wrap: wrap; define o conteiner PAI, que vai receber a galera
+*/
+
+header, nav, main, aside, footer {/*propriedades com valor em comum*/
+    display: flex;
+    margin: 3px;
+    background: #a1a1a1;
+}
+
+
+header {
+    flex: 1 1 100vw;
+}
+
+header #logo {
+    flex: 0 1 200px;
+    background: #c9c9c9;
+}
+
+#openMenu, #closeMenu {
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
+    flex: 1 1 100vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav a {
+    margin: 3%;
+    font-size: 20pt;
+}
+
+main {
+    flex: 20 1 500px; /*20 indica q ele cresce 20x mais qe os outros*/
+    height: calc(100vh - 224px);
+}
+
+aside {
+    flex: 1 1 200px;
+}
+
+footer {
+    flex: 1 1 100vw;
+    height: 100px;/*altura fixa */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (max-width: 923px) {/*Regra da pagina para main e aside quando a tela for menor que 923px*/
+    main {
+        height: calc(100vh - 330px);
+    }
+
+    aside {
+        flex: 1 1 100vw;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 717px) {/*Regra da pagina para menu ... quando a tela é pequena*/
+    #openMenu, #closeMenu {
+        display: block;
+    }
+
+    #openMenu {
+        margin-left: auto;
+    }
+
+    #closeMenu {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    nav {
+        position: fixed;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        opacity: 0;
+        transition: 0.3s;
+        display: none;
+    }
+}

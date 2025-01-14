@@ -1,0 +1,130 @@
+/*limpa formatação padrão*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 500; /*400 é o normal e 700 é o negrito*/
+    font-size: 1em;
+    font-family: Lato, Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+    align-items: center;
+    line-height: 1.2em;
+    
+}
+
+/*
+**** Layout ****
+*/
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+h5{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+header {
+    background-color: #00c2f7;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    height: 18em;
+    margin: 10px auto;
+    margin: 1px solid red;
+}
+
+nav li a{
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+nav li{
+    /*float: left;*/
+    background-color: aqua;
+}
+
+nav ul{
+    float: center;
+    list-style: none;
+}
+
+nav{
+    font-weight: 700;
+    /*letter-spacing: 0.3em;*/
+
+}
+
+#area-logo {
+    padding: 10px;
+    align-items: center;
+}
+
+#area-principal {
+    width: 75%;
+}
+
+
+
+
+
+.area-menu{
+    text-align: center;
+    float: center;
+    list-style: none;
+}
+
+.categoria{
+    border: 1px solid red;
+    padding: 15px;
+    border: 20px;
+}
+
+.bodyindex{
+    background-image: "Imagens/fundo2.png";
+}
+
+.borda{
+    border:1px solid red;
+}
+
+.titulos{
+    color: white; /*USE UM SITE "cores html" OU CODIGO HEXADECIMAL*/
+    text-shadow: 6px 3px 5px black;
+    font-size: 30px;
+    text-align: "center";
+    /*background: #ADD8E6;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*ver fontes html*/
+}
+
+.paragrafos{
+    /*color: white;*/ /*USE UM SITE "cores html" OU CODIGO HEXADECIMAL*/
+    font-size: 16px;
+    /*background: #ADD8E6;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*ver fontes html*/
+}
+
+.fundotext{
+    background-color: blue;
+    opacity: 0.6;
+}
+
+.imagem{
+    opacity: 1;
+}
+
+.imagemcarrousel{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}

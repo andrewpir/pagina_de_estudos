@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100pw;
+    background: #ffffff;
+    flex-wrap: wrap;
+}
+/*
+propriedades flex
+flex-grow: habilidade do flex de crescer (maior aumenta mais, padrão 0, 1 faz todos terem o mesmo tamanho)
+flex-shrink: capacidade de redução do item (com 0 n permite reduzir, maior numero diminui mais)
+flex-basis: tamanho inicial do item (0 mantem os mesmo tamanho entre eles, pode % em etc)
+flex-wrap: wrap; define o conteiner PAI, que vai receber a galera
+*/
+
+header, nav, main, aside, footer {/*propriedades com valor em comum*/
+    display: flex;
+    margin: 3px;
+    background: #a1a1a1;
+}
+
+
+header {
+    flex: 1 1 100vw;
+}
+
+nav {
+    flex: 1 1 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    margin: 5%;
+    font-size: 20pt;
+}
+
+main {
+    flex: 20 1 500px; /*20 indica q ele cresce 20x mais qe os outros*/
+    height: calc(100vh - 330px);
+}
+
+aside {
+    flex: 1 1 200px;
+}
+
+footer {
+    flex: 1 1 100vw;
+    height: 100px;/*altura fixa */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (max-width: 923px) {/*Regra da pagina para main e aside quando a tela for menor que 923px*/
+    main {
+        height: calc(100vh - 436px);
+    }
+
+    aside {
+        flex: 1 1 100vw;
+        height: 100px;
+    }
+}
+
+/*@media only screen and (max-width: 717px) {Regra da pagina para nav e main quando não couberem na mesma linha
+    nav {
+        height: 100px;
+    }
+
+    main {
+        height: calc(100vh - 436px);
+    }
+}*/

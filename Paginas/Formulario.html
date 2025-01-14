@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <title>PirexGames</title>
+    <meta charset="utf-8" />
+
+</head>
+
+<body>
+    <img src="https://www.pirexgames.win/Imagens/PGLogoTransparente.png" width="150" height="150">
+    <h1>Pirex Games</h1>
+
+    <a href="http://www.PirexGames.win/index.html">Home</a>
+
+    <h2>Login</h2>
+    <form>
+
+        Login:<br>
+        <input type="text" required name="login"><br>
+
+        Senha:<br>
+        <input type="password" required name="senha"><br>
+
+        <input type="button" name="" value="Logar"><br> <!--type pode ser text, password, button e submit-->
+
+
+    </form>
+
+    <h2>Cadastre-se</h2>
+
+    <form method="get" action="">
+        <!--
+                abertura da tag <form>
+                    method: metodo de envio
+                    action: destino dos dados
+                    input: campo de entrada de dados
+                    name: nome do campo
+
+                    <form action="destino.php" method="post">
+                        <label for="fname">nome:</label> 
+                        <input type="text" id="fname" name="nome">
+                        <input type="submit" value="Submit">
+                    </form>
+
+            -->
+        <label>Login:</label>
+        <input type="text" name="login">
+        <br><br>
+
+        <input type="radio" name="sexo" value="M"> Masculino<br><br>
+        <input type="radio" name="sexo" value="F"> Feminino<br><br>
+        <br>
+
+        <label>Email:</label>
+        <input type="text" name="email"><br><br>
+
+        <fieldset>
+            <legend>Interesses</legend><br><br>
+            <label>
+                <input type="checkbox" name="futebol" value="futebol"> Futebol<br>
+            </label>
+            <label>
+                <input type="checkbox" name="cursos" value="cursos"> Cursos<br>
+            </label>
+        </fieldset>
+
+        <label>Estado</label><br><br>
+        <select name="estado">
+            <option value="rs">RS</option>
+            <option value="mg">MG</option>
+            <option value="rj">RJ</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Escolha um dia da semana</legend>
+            <label>
+                <input type="radio" name="dia da semana" value="segunda feira"> Segunda Feira <br>
+            </label>
+            <label>
+                <input type="radio" name="dia da semana" value="terça feira"> Terça Feira <br>
+            </label>
+            <label>
+                <input type="radio" name="dia da semana" value="quarta feira"> Quarta Feira <br>
+            </label>
+            <label>
+                <input type="radio" name="dia da semana" value="quinta feira"> Quinta Feira <br>
+            </label>
+            <label>
+                <input type="radio" name="dia da semana" value="sexta feira"> Sexta Feira <br>
+            </label>
+            <label>
+                <input type="radio" name="dia da semana" value="sabado"> Sabado <br>
+            </label>
+            <label>
+                <input type="radio" name="dia da semana" value="Domingo"> Domingo <br>
+            </label>
+        </fieldset><br>
+
+        <label>datas</label>
+        <input type="date" name="data"><br><br>
+
+        <label>numeros</label>
+        <input type="number" name="numero"><br><br>
+
+        <fieldset>
+            <legend>Escolha um carro</legend>
+            <label>
+                <select name="carro" id="">
+                    <option value="Gol"> Gol </option>
+                    <option value="Strada"> Strada </option>
+                    <option value="c10"> C10 </option>
+                </select>
+            </label>
+        </fieldset>
+
+        <label>Observações:</label><br><br>
+        <textarea></textarea>
+        <br>
+
+        <input type="submit" value="cadastrar">
+        <br><br>
+        <label></label>
+
+
+    </form>
+
+</body>
+
+</html>

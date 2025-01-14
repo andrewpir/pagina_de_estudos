@@ -1,0 +1,19 @@
+body{
+	background-color: #ffeead; 
+    font-family: Arial,'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
+	font-size: 18px;
+}
+
+h1{
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+.corpoDoTexto{
+	color:blue;
+}
+.corpoDoTexto2{
+	color: red;
+}

@@ -1,0 +1,192 @@
+<!doctype html>
+
+<html>
+    <head>
+
+        <title>Posicionamentos(static, relative, absolute e fixed)</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            body{
+                background: #007fc7;
+            }
+            #container{
+                background: #fff;
+                width: 800px;
+                margin: 10px auto;
+                padding: 20px;
+                position: relative; /*relative, absolute e fixed*/
+            }
+            h1{
+                position: static;
+            }
+
+            p{
+                width: 300px;
+                position: static; /*static é a posição padrão de todos*/
+            }
+
+            .absolute{
+                border: 1px solid green;
+                background: #f2f2f2;
+                position: absolute; /*elementos com absolute saem do fluxo normal*/
+                top: 80px;
+                right: 80px;
+            }
+
+            .fixed{
+                border: 1px solid green;
+                background: #f2f2f2;
+                position: fixed; /*elementos com fixed*/
+                top: 80px;
+                right: 80px;
+            }
+
+            .relative{
+                border: 1px solid red;
+                position: relative; /* top, right, botton e left*/
+                top: -10px;
+                left: 80px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <a href="http://www.PirexGames.win/index.html">Home</a>
+        <div id="container">
+            <h1>Posicionamentos</h1>
+            <p>
+                P1 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="relative">
+                P2 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="absolute">
+                P3 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="fixed">
+                P4 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="">
+                P5 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="">
+                P6 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="">
+                P7 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="">
+                P8 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="">
+                P9 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="">
+                P10 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+            <p class="">
+                P11 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+                Phasellus accumsan sit amet ante eget sagittis. 
+                Nam et risus porta nisl auctor lobortis quis ac eros. 
+                Praesent cursus vehicula risus elementum faucibus. 
+                In sed velit et orci fermentum eleifend. In laoreet, 
+                nisl luctus gravida suscipit, libero velit pretium neque, 
+            </p>
+
+        </div>
+        <!--
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Duis orci leo, viverra at commodo maximus, auctor quis nulla. 
+            Phasellus accumsan sit amet ante eget sagittis. 
+            Nam et risus porta nisl auctor lobortis quis ac eros. 
+            Praesent cursus vehicula risus elementum faucibus. 
+            In sed velit et orci fermentum eleifend. In laoreet, 
+            nisl luctus gravida suscipit, libero velit pretium neque, 
+            in facilisis urna metus sed justo. Suspendisse bibendum interdum scelerisque. 
+            Maecenas ac gravida lorem, at laoreet massa. Morbi sit amet nibh ultricies, 
+            convallis nibh id, finibus mauris. In dictum, odio nec elementum luctus, 
+            arcu sem accumsan felis, sit amet dictum erat nunc non felis. 
+            Nullam tincidunt sollicitudin sollicitudin. 
+            Aliquam ac quam ac lorem fermentum euismod at at ipsum. 
+            Ut finibus tellus eu porttitor feugiat. 
+            Suspendisse egestas lacus nec sagittis tristique. 
+            Aliquam consequat dolor odio, ultricies tristique tortor aliquet ac.
+        -->
+
+        
+
+    </body>
+</html>

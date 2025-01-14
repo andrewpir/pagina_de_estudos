@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DIV & Span
+        </title>
+        <meta charset="utf-8">
+        <style type="text/css"> 
+            
+            h1 {
+                color: black;
+            }
+            /*
+            a classe se define com um ponto a frente do nome e pode ser usada diversas veses dentro da pagina
+            para usar a clase voce coloca class="nome da classe"
+            */
+            .azul{
+                color: blue;
+            } 
+            /*
+            a ID se define com o # a frente do nome, pode ser usado em diversos componentes porem só pode ser usado UMA ves dentro da pagina
+            para usar a ID voce coloca id="nome da id"
+            */
+            #principal{
+                background: lightgray;
+            }
+
+            #topo{
+                background: blue;
+            }
+
+            #conteudo{
+                background: red;
+                margin: 10px;
+            }
+
+            #rodape{
+                background: green;
+            }
+
+            #assinatura{
+                background: pink;
+            }
+
+            .produto{
+                background: gray;
+                margin: 10px;
+            }
+
+
+
+        </style>
+    </head>
+    <body id="principal">
+
+        <a href="http://www.PirexGames.win/index.html">Home</a>
+
+
+        <div id="topo">
+            <img src="https://www.pirexgames.win/Imagens/PGLogoTransparente.png" width="150">
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+
+        </div>
+        <!--a div é um elemento em blocos, que aproveita todo o espaço usado, a próxima div será colocada abaixo da anterior-->
+
+        <div id="conteudo">
+            <span class="produto">
+                produto 1
+            </span>
+            <span class="produto">
+                produto 2
+            </span>
+            <span class="produto">
+                produto 3
+            </span>
+        </div>
+
+        <div id="rodape"> 
+            Todos os <span class="azul">direitos</span> reservados
+        </div>
+
+        <span id="assinatura">
+            PirexGames
+        </span>
+        <!--o span é usado em linha, a cada novo span sera colocado na linha do anterior-->
+        <span>
+            testando jogos
+        </span>
+
+        <h1>DIV & Span</h1>
+
+        
+
+    </body>
+</html>

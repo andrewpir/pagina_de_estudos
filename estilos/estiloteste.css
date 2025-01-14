@@ -1,0 +1,56 @@
+.categoria{
+    border: 1px solid red;
+    padding: 15px;
+    border: 20px;
+}
+
+.bodyindex{
+    background-image: "Imagens/fundo2.png";
+}
+
+.borda{
+    border:1px solid red;
+}
+
+.titulos{
+    color: white; /*USE UM SITE "cores html" OU CODIGO HEXADECIMAL*/
+    text-shadow: 6px 3px 5px black;
+    font-size: 30px;
+    text-align: "center";
+    /*background: #ADD8E6;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*ver fontes html*/
+}
+
+.paragrafos{
+    /*color: white;*/ /*USE UM SITE "cores html" OU CODIGO HEXADECIMAL*/
+    font-size: 16px;
+    /*background: #ADD8E6;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*ver fontes html*/
+}
+
+.fundotext{
+    background-color: blue;
+    opacity: 0.6;
+}
+
+.imagem{
+    opacity: 1;
+}
+
+h2{
+    color: white; /*USE UM SITE "cores html" OU CODIGO HEXADECIMAL*/
+    text-shadow: 6px 3px 5px black;
+    font-size: 30px;
+    text-align: center;
+    /*background: #ADD8E6;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*ver fontes html*/
+}
+
+p{
+    color: white; /*USE UM SITE "cores html" OU CODIGO HEXADECIMAL*/
+    text-shadow: 6px 3px 5px black;
+    font-size: 16px;
+    /*background: #ADD8E6;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*ver fontes html*/
+}
+
